@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/front_css/blog-home.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 </head>
 
@@ -34,6 +35,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
 </body>
 

@@ -25,6 +25,10 @@
 //     return "Halaman dengan ID: ".$id;
 // });
 
-Route::get('/', 'HomeController');
+Route::get('/', 'HomeController@home');
 Route::get('/about', 'AboutController');
 Route::get('/article/{id}', 'ArticleController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
